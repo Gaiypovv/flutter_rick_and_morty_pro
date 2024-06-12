@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rick_and_morty_pro/presentetation/screens/splash_screen.dart';
 
 void main(List<String> args) {
   runApp(
@@ -11,6 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: SplashScreen(),
+    );
   }
 }
