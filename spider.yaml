@@ -35,4 +35,4 @@ groups:
     types: [ .png ]
   - path: assets/svgs
     class_name: AppSvgs
-    types: [.svg]
+    types: [ .svg ]
